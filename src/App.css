@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+.dictionaryApp {
+  margin: auto;
+  max-width: 800px;
+  margin-top: 50px;
+}
