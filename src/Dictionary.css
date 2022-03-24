@@ -2,3 +2,8 @@
 h3 {
   text-align: left;
 }
+
+.Synonyms li {
+  list-style-type: none;
+  text-align: left;
+}
