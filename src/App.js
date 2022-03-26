@@ -14,7 +14,7 @@ function App() {
               <a
                 href="https://github.com/madisonmincevich/dictionary-app"
                 target="_blank"
-                rrel="noreferrer"
+                rel="noreferrer"
               >
                 Open source
               </a>{" "}
