@@ -1,9 +1,102 @@
+section {
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 10px 10px rgba(0 0 0 / 10%);
+  padding: 30px;
+  background: white;
+}
+
+.Search section {
+  text-align: left;
+}
+
+.suggestion {
+  font-size: 13px;
+  font-style: italic;
+}
+
+input {
+  width: 100%;
+  color: grey;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+/*Results*/
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/*Meanings*/
 .Meaning div,
 h3 {
   text-align: left;
 }
 
-.Synonyms li {
+.example {
+  color: #ab6255;
+}
+
+/*Synonyms*/
+.Synonyms {
+  margin: 20px 0 0;
+  padding: 0px;
+  color: #758b94;
+}
+.syns {
+  display: inline-block;
   list-style-type: none;
-  text-align: left;
+  padding-right: 15px;
+}
+
+/*Phonetics*/
+
+.text {
+  font-size: 25px;
+  color: grey;
+}
+
+@media (max-width: 653px) {
+  .text {
+    font-size: 14px;
+    margin-left: 100px;
+  }
+}
+
+audio {
+  width: 100px;
+  height: 45px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #afbec4;
+}
+
+audio::-webkit-media-controls-panel:hover {
+  background-color: #f2bc72;
+}
+
+audio::-webkit-media-controls-play-button {
+  margin: 0 auto;
+}
+
+audio::-webkit-media-controls-volume-control-container {
+  display: none !important;
+}
+audio::-webkit-media-controls-timeline {
+  display: none;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
 }

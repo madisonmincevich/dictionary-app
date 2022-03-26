@@ -2,8 +2,39 @@
   text-align: center;
 }
 
+body {
+  background-image: url(./rm245-bb-62.jpg);
+  /*Background vector created by rawpixel.com - www.freepik.com*/
+  background-size: 1550px 2400px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 653px) {
+  body {
+    background-image: url(./rm245-bb-62.jpg);
+    background-size: 1550px 4000px;
+    background-repeat: no-repeat;
+  }
+}
+
 .dictionaryApp {
   margin: auto;
   max-width: 800px;
   margin-top: 50px;
+}
+
+footer {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 8px;
+  width: 40%;
+}
+
+a {
+  color: #ab6255;
+}
+
+a:hover {
+  color: #f2bc72;
 }

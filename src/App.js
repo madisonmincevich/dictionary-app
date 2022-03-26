@@ -7,10 +7,27 @@ function App() {
     <div className="App">
       <div className="dictionaryApp">
         <div className="container">
-          <img src={icon} alt="" className="icon" />
-          <h1>Dictionary App</h1>
-          <Dictionary />
-          <footer className="mt-4">Coded by Maddie Mincevich</footer>
+          <div className="col">
+            <img src="https://img.icons8.com/dotty/2x/m.png" alt="logo" />
+            <Dictionary defaultKeyword="sunset" />
+            <footer>
+              <a
+                href="https://github.com/madisonmincevich/dictionary-app"
+                target="_blank"
+                rel="noreffer"
+              >
+                Open source
+              </a>{" "}
+              code by{" "}
+              <a
+                href="https://stupefied-poitras-c9d7d8.netlify.app/"
+                target="_blank"
+                rel="noreffer"
+              >
+                Maddie Mincevich
+              </a>
+            </footer>
+          </div>
         </div>
       </div>
     </div>
