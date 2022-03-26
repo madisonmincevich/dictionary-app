@@ -1,5 +1,5 @@
 import "./App.css";
-import icon from "./icon.png";
+
 import Dictionary from "./Dictionary.js";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
               <a
                 href="https://github.com/madisonmincevich/dictionary-app"
                 target="_blank"
-                rel="noreffer"
+                rrel="noreferrer"
               >
                 Open source
               </a>{" "}
@@ -22,7 +22,7 @@ function App() {
               <a
                 href="https://stupefied-poitras-c9d7d8.netlify.app/"
                 target="_blank"
-                rel="noreffer"
+                rel="noreferrer"
               >
                 Maddie Mincevich
               </a>
