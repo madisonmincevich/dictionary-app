@@ -8,7 +8,11 @@ function App() {
       <div className="dictionaryApp">
         <div className="container">
           <div className="col">
-            <img src="https://img.icons8.com/dotty/2x/m.png" alt="logo" />
+            <img
+              src="https://img.icons8.com/dotty/2x/m.png"
+              alt="logo"
+              className="logo"
+            />
             <Dictionary defaultKeyword="sunset" />
             <footer>
               <a
